@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website- Silky</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo-container">
+                    <img src="./Images/navlogo.jpeg" class="logo">
+                    <div class="logo-text">ilky Kumari</div>
+                </div>
+
+                <div class="nav-items">
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
+                </div>
+            </div>
+            <div class="me-section">
+                <div class="faded-text">Silky Kumari</div>
+                <div class="me-section-left">
+                    <div class="me-section-heading">Hii! Silky Kumari</div>
+                    <div class="me-section-heading me-section-subheading">
+                        I am a <span class="role"></span>
+                    </div>
+                    <div class="me-section-desc">
+                        I am aspiring Software Developer and here is my Portfolio Website.
+                        Here you can find all about me.
+                    </div>
+                    <div class="btn-pink" id="btn">Hire Me</div>
+                </div>
+                <div class="me-section-right">
+                    <div class="user-img">
+                        <img src="./Images/user-img.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="projects" class="project-section">
+            <h2 class="page-header">Projects</h2>
+            <div class="projects-container">
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-right">01</div>
+                    <div class="project-content project-content-left">
+                        <h2 class="project-heading">Sign Language Detection</h2>
+                        <div class="project-subheading">This is a Machine learning Model which recognizes Hand Gestures and label it into written Symbols</div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="https://github.com/silky11/Sign-Language-Detection"><i title="GitHubLink" class="fa-brands fa-github icon"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project2">
+                    <div class="project-number project-number-left">02</div>
+                    <div class="project-content">
+                        <h2 class="project-heading">Face Emotion Detection</h2>
+                        <div class="project-subheading">This is a Deep learning Model which detects 7 Class of Facial Emotions</div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="https://github.com/silky11/Face-Emotion-Detection"><i title="GitHubLink" class="fa-brands fa-github icon"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project3">
+                    <div class="project-number project-number-right">03</div>
+                    <div class="project-content">
+                        <h2 class="project-heading">Text Classification</h2>
+                        <div class="project-subheading">This is a Machine learning Model which classifies a text as Spam or Ham</div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href=""><i title="GitHubLink" class="fa-brands fa-github icon"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="skills" class="container skills-container">
+            <div class="skill-fade-text">Skills</div>
+            <div class="skill-container-left">
+                <h2 class="skill-heading">
+                    <span class="caps">M</span>e and
+                    <br/>
+                    My Skills
+                </h2>
+
+                <div class="skill-subHeading">
+                    <p>
+                        Hello Everyone I am Silky Kumari I am an aspiring Software Developer
+                        I am currently pursuing B.Tech in CSE. My skills include C, C++, Java, Python, HTML, CSS, JavaScript. I also have experience in Machine Learning , Deep Learning Concepts.
+                        I have understanding of OOPs, DBMS, SQL.
+                        I have build several projects in above domain.
+                    </p>
+                </div>
+            </div>
+            <div class="skill-container-right">
+                <img src="./Images/c.png" alt="" class="skills-logo">
+                <img src="./Images/c++.jpeg" alt="" class="skills-logo">
+                <img src="./Images/java.jpeg" alt="" class="skills-logo">
+                <img src="./Images/html.png" alt="" class="skills-logo">
+                <img src="./Images/css.jpeg" alt="" class="skills-logo">
+                <img src="./Images/js.png" alt="" class="skills-logo">
+                <img src="./Images/ml.png" alt="" class="skills-logo">
+                <img src="./Images/dl.jpeg" alt="" class="skills-logo">
+                <img src="./Images/dbms.jpeg" alt="" class="skills-logo">
+                <img src="./Images/sql.png" alt="" class="skills-logo">
+                <img src="./Images/python.jpeg" alt="" class="skills-logo">
+            </div>
+        </div>
+
+        <div id="contactme" class="contactus-form-container">
+            <div class="container">
+                <h1 class="contactus-heading">Contact Me</h1>
+                <h3 class="contactus-sub-heading">Any Questions? Want to Connect?
+                </h3>
+                <div class="contactus-form-container">
+                    <form class="form" action="connect.php" method="post">
+                        <div class="formfield-container">
+                            <input class="formfield" type="text" name="name"
+                            id="" placeholder="Enter Your Name"/>
+
+                            <input class="formfield" type="email" name="email"
+                            id="" placeholder="Enter Your Email Id"/>
+
+                            <input class="formfield" type="number" name="phone"
+                            id="" placeholder="Enter Your Phone Number"/>
+
+                            <input class="formfield" type="text" name="subject"
+                            id="" placeholder="Enter Your Subject"/>
+
+                            <textarea class="formfield formfield-textarea" type="text" name="message"
+                            id="" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                        </div>
+
+                        <div>
+                            <button type="submit" class="btn-pink" id="submit-btn">
+                                Send Message <i class="submit-icon fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+          <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-faded-text">
+                    Silky Kumari
+                </div>
+
+                <div class="link-wrapper">
+                    <div>
+                        <a href="#projects">Projects</a>
+                    </div>
+                    <div>
+                        <a href="#skills">Skills</a>
+                    </div>
+                    <div>
+                        <a href="#contactme">Contact Me</a>
+                    </div>
+                </div>
+
+                <div class="icon-wrapper">
+                    <i class="fa-brands fa-linkedin icon"></i>
+                    <a href="https://github.com/silky11"><i class="fa-brands fa-github icon"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram icon"></i></a>
+                </div>
+            </div>
+          </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role",{
+            strings: [
+                "Future Software Developer",
+                "Machine Learning Enthusiast",
+                "Coder",
+                "Web Developer"
+            ],
+            loop:true,
+            typeSpeed:100,
+            backSpeed:80,
+            backDelay:1000,
+        });
+    </script>
+
+</body>
+</html>
